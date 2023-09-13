@@ -1,0 +1,36 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  display: grid;
+  place-items: center;
+  height: 60vh;
+}
+.sec{
+  max-width: 400px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.btn{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+}
+.btn button{
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+.stepnum{
+  font-size: 40px;
+}
